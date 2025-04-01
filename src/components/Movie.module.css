@@ -1,0 +1,32 @@
+.MoviesList{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 15px;
+    justify-content: center;
+    background-color: rgba(134, 134, 134, 0.473);
+    margin: 0 20px;
+    border-radius: 10px;
+
+}
+
+.MovieItem{
+    max-width: 200px; 
+    text-align: center;
+}
+
+.MovieImage{
+    width: 100%;
+    border-radius: 8px; 
+    border: 5px solid rgb(236, 236, 236);
+}
+
+.Link {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: large;
+}
+
+

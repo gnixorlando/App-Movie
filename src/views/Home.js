@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { MoviesService } from "../api/MoviesServices";
-import {MoviesContainer} from "../styles/MoviesContainer"
 import {MoviesList} from "../components/MoviesList"
 
 export const Home = () => {
@@ -16,8 +15,6 @@ export const Home = () => {
   }, []);
 
   return (
-    <MoviesContainer>
       <MoviesList movies={movies} />
-    </MoviesContainer>
   );
 };
